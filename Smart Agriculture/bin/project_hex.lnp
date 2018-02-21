@@ -1,0 +1,21 @@
+--cpu ARM7TDMI
+"..\bin\startup.o"
+"..\bin\adc.o"
+"..\bin\uart0.o"
+"..\bin\pll0.o"
+"..\bin\buz.o"
+"..\bin\led.o"
+"..\bin\main.o"
+"..\bin\delay.o"
+"..\bin\tri_colour.o"
+"..\bin\i2c0.o"
+"..\bin\switch.o"
+"..\bin\timer0_1.o"
+"..\bin\uart1.o"
+"..\bin\gsm.o"
+"..\bin\app.o"
+"..\bin\lcd.o"
+--strict --scatter "..\bin\project_hex.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\project_hex.map" -o ..\bin\project_hex.axf

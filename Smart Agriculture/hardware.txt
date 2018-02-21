@@ -1,0 +1,18 @@
+
+
+	
+Smart Agriculture
+
+Digital Inputs:
+ P0.2 - Water level sensor pin 1
+ P0.3 - Water level sensor pin 2
+ P0.4 - Rain sensor
+ P0.5 - Moisture Sensor
+ 
+ P0.8(UART 1 TX) - GSM RX
+ P0.9(UART 1 RX) -  GSM TX
+ 
+ P0.13 - Switch Inputs
+ P0.16 - Motor control Input
+ 
+ P0.28 - Temperature Sensor

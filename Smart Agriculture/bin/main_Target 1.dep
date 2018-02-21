@@ -1,0 +1,128 @@
+Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x57FEFE78)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 524"--list .\startup.lst --xref -o ..\bin\startup.o --depend ..\bin\startup.d)
+F (..\drv\src\adc.c)(0x5A845FDA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\adc.o --omf_browse ..\bin\adc.crf --depend ..\bin\adc.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\adc.h)(0x5A833F2A)
+F (..\drv\src\uart0.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\uart0.o --omf_browse ..\bin\uart0.crf --depend ..\bin\uart0.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\uart0.h)(0x57FEFE78)
+F (..\drv\src\pll0.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\pll0.o --omf_browse ..\bin\pll0.crf --depend ..\bin\pll0.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pll0.h)(0x57FEFE78)
+F (..\drv\src\buz.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\buz.o --omf_browse ..\bin\buz.crf --depend ..\bin\buz.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\buz.h)(0x57FEFE78)
+F (..\drv\src\led.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\led.o --omf_browse ..\bin\led.crf --depend ..\bin\led.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\led.h)(0x57FEFE78)
+F (..\app\main.c)(0x5A8AD870)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\main.o --omf_browse ..\bin\main.crf --depend ..\bin\main.d)
+I (..\app\app.h)(0x5A8AC88D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BA66C)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pll0.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\adc.h)(0x5A833F2A)
+I (..\drv\include\lcd.h)(0x5A84BC5C)
+I (..\drv\include\buz.h)(0x57FEFE78)
+I (..\drv\include\delay.h)(0x57FEFE78)
+I (..\module\include\gsm.h)(0x5A8ACCD5)
+I (..\module\include\gps.h)(0x57FEFE78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BA66C)
+I (..\drv\include\uart0.h)(0x57FEFE78)
+I (..\drv\include\uart1.h)(0x5A83C94A)
+F (..\drv\src\delay.c)(0x5A83E389)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\delay.o --omf_browse ..\bin\delay.crf --depend ..\bin\delay.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\delay.h)(0x57FEFE78)
+F (..\drv\src\tri_colour.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\tri_colour.o --omf_browse ..\bin\tri_colour.crf --depend ..\bin\tri_colour.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\tri_colour.h)(0x57FEFE78)
+F (..\drv\src\I2C0.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\i2c0.o --omf_browse ..\bin\i2c0.crf --depend ..\bin\i2c0.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\i2c0.h)(0x57FEFE78)
+I (..\drv\include\lcd.h)(0x5A84BC5C)
+F (..\drv\src\switch.c)(0x5A82E319)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\switch.o --omf_browse ..\bin\switch.crf --depend ..\bin\switch.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\switch.h)(0x57FEFE78)
+F (..\drv\src\Timer0_1.c)(0x57FEFE78)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\timer0_1.o --omf_browse ..\bin\timer0_1.crf --depend ..\bin\timer0_1.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\Timer0_1.h)(0x57FEFE78)
+F (..\drv\src\uart1.c)(0x5A8AC8D3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\uart1.o --omf_browse ..\bin\uart1.crf --depend ..\bin\uart1.d)
+I (..\app\app.h)(0x5A8AC88D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BA66C)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pll0.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\adc.h)(0x5A833F2A)
+I (..\drv\include\lcd.h)(0x5A84BC5C)
+I (..\drv\include\buz.h)(0x57FEFE78)
+I (..\drv\include\delay.h)(0x57FEFE78)
+I (..\module\include\gsm.h)(0x5A8ACCD5)
+I (..\module\include\gps.h)(0x57FEFE78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BA66C)
+I (..\drv\include\uart0.h)(0x57FEFE78)
+I (..\drv\include\uart1.h)(0x5A83C94A)
+F (..\module\src\gsm.c)(0x5A8AD2EF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\gsm.o --omf_browse ..\bin\gsm.crf --depend ..\bin\gsm.d)
+I (..\app\app.h)(0x5A8AC88D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BA66C)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pll0.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\adc.h)(0x5A833F2A)
+I (..\drv\include\lcd.h)(0x5A84BC5C)
+I (..\drv\include\buz.h)(0x57FEFE78)
+I (..\drv\include\delay.h)(0x57FEFE78)
+I (..\module\include\gsm.h)(0x5A8ACCD5)
+I (..\module\include\gps.h)(0x57FEFE78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BA66C)
+I (..\drv\include\uart0.h)(0x57FEFE78)
+I (..\drv\include\uart1.h)(0x5A83C94A)
+F (..\app\app.c)(0x5A8ADA61)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\app.o --omf_browse ..\bin\app.crf --depend ..\bin\app.d)
+I (..\app\app.h)(0x5A8AC88D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BA66C)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pll0.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\pconp.h)(0x57FEFE78)
+I (..\drv\include\adc.h)(0x5A833F2A)
+I (..\drv\include\lcd.h)(0x5A84BC5C)
+I (..\drv\include\buz.h)(0x57FEFE78)
+I (..\drv\include\delay.h)(0x57FEFE78)
+I (..\module\include\gsm.h)(0x5A8ACCD5)
+I (..\module\include\gps.h)(0x57FEFE78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BA66C)
+I (..\drv\include\uart0.h)(0x57FEFE78)
+I (..\drv\include\uart1.h)(0x5A83C94A)
+F (..\drv\src\lcd.c)(0x5A87E733)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I ..\drv\include -I ..\include -I ..\module\include -I ..\app-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="524"-o ..\bin\lcd.o --omf_browse ..\bin\lcd.crf --depend ..\bin\lcd.d)
+I (..\drv\include\global.h)(0x5A82ABEC)
+I (..\drv\include\lpc2148.h)(0x57FEFE78)
+I (..\drv\include\pcb.h)(0x5A82E0EB)
+I (..\drv\include\delay.h)(0x57FEFE78)
+I (..\drv\include\lcd.h)(0x5A84BC5C)

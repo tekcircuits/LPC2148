@@ -1,0 +1,12 @@
+..\bin\gps.o: ..\module\src\gps.c
+..\bin\gps.o: ..\drv\include\global.h
+..\bin\gps.o: ..\drv\include\lpc2148.h
+..\bin\gps.o: ..\drv\include\pll0.h
+..\bin\gps.o: ..\drv\include\pcb.h
+..\bin\gps.o: ..\drv\include\pconp.h
+..\bin\gps.o: ..\drv\include\uart0.h
+..\bin\gps.o: ..\drv\include\lcd.h
+..\bin\gps.o: ..\drv\include\delay.h
+..\bin\gps.o: ..\module\include\gps.h
+..\bin\gps.o: ..\module\include\gsm.h
+..\bin\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
